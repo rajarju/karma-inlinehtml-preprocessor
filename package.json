@@ -1,0 +1,30 @@
+{
+  "name": "karma-inlinehtml-preprocessor",
+  "version": "1.0.0",
+  "description": "Inline HTML template preprocessor for Karma",
+  "main": "libs/index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "keywords": [
+    "karma",
+    "karma",
+    "html",
+    "preprocessor"
+  ],
+  "peerDependencies": {
+    "karma": ">=0.9"
+  },
+  "author": "Arjun Raj <rajarju@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "gulp-cli": "^1.2.2",
+    "karma": "^1.5.0"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0"
+  }
+}
