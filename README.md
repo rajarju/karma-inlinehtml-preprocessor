@@ -1,8 +1,8 @@
 # Karma Inline HTML preprocessor
-Used to include Inline (script tag wrapped) templates to karma tests.
+Used to include Inline (like wrapped in script tags) templates to karma tests.
 
 ### Karma Config
-```
+```js
 // Add Preprocessor for html files
 preprocessors: {
   '*.html': ['inlinehtml']
