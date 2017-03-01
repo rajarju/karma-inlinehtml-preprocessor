@@ -2,6 +2,16 @@
 Used to include Inline (like wrapped in script tags) templates to karma tests.
 The plugin checks for script tags with template info inside and adds them to a global variable `__html__`. The script tags are selected based on a query selector which can be configured.
 
+##Installation
+
+```
+$ npm install --save-dev karma-inlinehtml-preprocessor
+```
+Or
+```
+$ yarn add karma-inlinehtml-preprocessor --dev
+```
+
 If you have your templates in your html file as below, you can use this plugin to load them to your Karma test environments. 
 
 ```html
